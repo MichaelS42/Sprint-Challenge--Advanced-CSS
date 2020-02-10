@@ -1,1 +1,20 @@
 // Mixins Here
+
+.Txt {
+    color: @header-font-color;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.btn(@justify, @align) {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    color: white;
+    border-radius: 5px;
+    background-color: @btn-bg-color;
+    width: 35%;
+    padding: 10px 10px 10px 10px;
+}
